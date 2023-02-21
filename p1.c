@@ -11,7 +11,10 @@ void print_number(int n) {
         n %= 1000;
     }
     if (n >= 100) {
-        printf("%s hundred ", ones[n / 100]);
+        printf("%s hundred", ones[n / 100]);
+        if (n % 100 != 0) {
+            printf(" and ");
+        }
         n %= 100;
     }
     if (n >= 20) {
