@@ -15,3 +15,4 @@ int main()
     printf("The length of string %s is %d",str,len);
     return 0;
 }
+

@@ -11,4 +11,3 @@ int comparefunc(char str1[],char str2[]){
     {
         printf("-1");
     }
-}
